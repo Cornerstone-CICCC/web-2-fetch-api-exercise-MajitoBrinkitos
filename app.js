@@ -24,10 +24,10 @@
 
 
                 let weatherHtml = `
-                <h3>Timezone: ${timezone}</h3>
-                <h3>Temperature: ${temperature} °C</h3>
-                <h3>Wind Speed: ${windSpeed} km/h</h3>
-                <h3>Last updated: ${time}</h3>
+                <h3>Timezone: <span>${timezone}</span> </h3>
+                <h3>Temperature: <span>${temperature} °C</span> </h3>
+                <h3>Wind Speed: <span>${windSpeed} km/h</span> </h3>
+                <h3>Last updated: <span>${time}</span> </h3>
             `
             displayWeather.innerHTML = weatherHtml
             } else {

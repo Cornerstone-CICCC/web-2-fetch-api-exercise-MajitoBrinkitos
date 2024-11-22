@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/img/bkg-img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-right: 50%;
+    height: 100vh;
+
+    h1 {
+        color: white;
+        font-size: 3rem;
+    }
+
+    h2 {
+        color: whitesmoke;
+    }
+
+    .location {
+        width: 15%;
+    }
+
+    .displayWeather {
+        color: white;
+        font-size: 18px;
+
+        h3 {
+            color: lightgray;
+            span {
+                color: white;
+            }
+        }
+    }
+
+    .btn-get-location {
+        margin-top: 15px;
+        padding: 15px;
+
+    }
+}
